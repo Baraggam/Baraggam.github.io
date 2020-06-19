@@ -1,1 +1,117 @@
-Hello World
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML, O Básico</title>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+	</head>
+	<body>
+		<div>
+			<h1> <span id="Índice"> Índice </span> </h1>
+			<ol>
+				<li> <a href="#HTML_introdução"> <span> HTML, introdução </span> </a> </li>
+				<li> <a href="#Fontes_de_letras"> <span> Fontes de letras </span> </a> </li>
+				<li> <a href="#Imagem"> <span> Imagem </span> </a> </li>
+				<li> <a href="#Bordas"> <span> Bordas </span> </a> </li>
+				<li> <a href="#Interatividade"> <span> Interatividade </span> </a> </li>
+				<li> <a href="#Imagem_bacana_de_fundo"> <span> Imagem bacana de fundo </span> </a> </li>
+				<li> <a href="#Interconectividade"> <span> Interconectividade </span> </a> </li>
+			</ol>
+		</div>
+		<div id="fundo1">
+			<h1> <span id="HTML_introdução"> HTML, introdução </span> </h1>
+			<p class="paragrafo1">
+				Está parte, por exemplo, é a demonstração de um parágrafo dentro de um conteiner. Temos aqui um fundo verde com a escrita em vermelho com a tag preta.
+			</p>
+			<p class="paragrafo1">
+				Aqui tem-se um novo paragrafo com o mesmo estilo do anterior. Ao longo dessa página,
+				o objetivo será mostrar algumas das poucas funçoes que o  HTML proporciona com detalhes.
+			</p>
+		</div>
+		<hr style="height:2px;color:gray;background-color:gray">
+		<div id="fundo2">
+			<h1> <span id="Fontes_de_letras"> Fontes de letras </span> </h1>
+			<p class="paragrafo2">
+				Aqui será o ultimo exemplo de mudança de cor do texto. O texto está em azul enquanto o conteiner (fundo) está rosa.
+			</p>
+			<p class="paragrafo2" style="font-family: 'Times New Roman', Times, serif;">
+				O texto, a partir de agora, se adaptara a duração da leitura, transformando a letra para serifada ou não (Times news roman).
+			</p">
+			<p class="paragrafo2" style="font-family: Arial, Helvetica, sans-serif;">
+				Repetindo <br><br>
+				O texto, a partir de agora, se adaptara a duração da leitura, transformando a letra para serifada ou não (Arial).
+			</p>
+		</div>
+		<hr style="height:2px;color:gray;background-color:gray">
+		<div id="fundo">
+			<h1> <span id="Imagem"> Imagem </span> </h1>
+			<p class="paragrafo">
+				Neste conteiner tem-se o exemplo de imagem com vários tamanhos diferentes.
+			</p>
+			<figure>
+				<img src="https://www.mediapost.com.br/assets/uploads/2011/11/o-que-e-html.jpg" alt="Imagem HTML">
+				<figcaption> HTML Original </figcaption>
+			</figure>
+			<figure>
+				<img src="https://www.mediapost.com.br/assets/uploads/2011/11/o-que-e-html.jpg" alt="Imagem HTML" style="width:100%;height:100%;">
+				<figcaption> HTML nao tela inteira </figcaption>
+			</figure>
+			<figure>
+				<img src="https://www.mediapost.com.br/assets/uploads/2011/11/o-que-e-html.jpg" alt="Imagem HTML" style="width:1%;height:1%;">
+				<figcaption> HTML Bem pequeno </figcaption>
+			</figure>
+		</div>
+		<hr style="height:2px;color:gray;background-color:gray">
+		<div id="fundo">
+			<h1> <span id="Bordas"> Bordas </span> </h1>
+			<h2> Aqui tem-se o exemplo de algumas bordas juntamente com várias tags </h2>
+			<h3> Borda média verde </h3>
+			<h4 align=right> Borda larga preta alinha à direita </h4>
+			<h5 align=center> Borda bem fininha espaçada vermelha alinhada no centro </h5>
+			<h6> Borda super desconfortável de se olhar </h6>
+		</div>
+		<hr style="height:2px;color:gray;background-color:gray">
+		<div id="fundo">
+			<h1> <span id="Interatividade"> Interatividade </span> </h1>
+			<p class="paragrafo">
+				Aqui se tem uma demonstração de interatividade com o usuário permintindo a escrita.
+			</p>
+		</div>
+		<div id="fundo3">
+			<p class="paragrafo">
+				<i>"Bom dia, </i> <br>
+				<input type="text" value="Seu nome">
+				<i>, também conhecido/a como </i><br>
+				<input type="text" value="Seu apelido">
+				<i>, mas gosta de ser chamado/a de </i><br>
+				<input type="text" value="Seu apelido predileto">
+				<i>, hoje é um ótimo dia para aprender um pouco de HTML! </i>
+			</p>
+		</div>
+		<hr style="height:2px;color:gray;background-color:gray">
+		<div id="fundo4">
+			<h1 style="color: white;"> <span id="Imagem_bacana_de_fundo"> Imagem bacana de fundo </span> </h1>
+			<p style="font-size: larger; color: rgb(255, 255, 255)" align="center">
+				<b> Aqui <br> tem <br> um <br> monte <br> de <br> "br" <br> somente <br> para <br>
+				fazer <br> um <br> texto <br> extenso <br> e <br>
+				tentar <br> mostrar <br> uma <br> imagem <br> de <br> fundo </b>
+
+			</p>
+		</div>
+		<div id="fundo">
+			<h1> <span id="Interconectividade"> Interconectividade </span> </h1>
+			<p class="paragrafo" style="font-size: 1cm;">
+				Para finalizar, neste conteiner tem-se links para outros sites, deixando marcados aqueles que ja foram clicados anteriormente (padrão do navegador)
+				e com uma fonte um pouco maior para se destacar o controle que pode-se ter.
+			</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/RISPTY1Lh2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<figcaption> Exemplo com videos do youtube </figcaption>
+			<p class="paragrafo" style="font-size: 25px;">
+				Para maiores informações sobre HTML, <a href="https://www.w3schools.com/html/" target="_blank"> clique aqui. </a>
+			</p>
+			<figcaption> Exemplo com links (site w3schools) abrindo em nova página </figcaption>
+			<p>
+				E <a href="#Índice"> <span> aqui </span> </a>, para finalizar, se conecta com essa propria página levando você até o inicio.
+			</p>
+		</div>
+	</body>
+</html>
