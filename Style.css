@@ -1,0 +1,73 @@
+html {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-style: italic;
+}
+
+h2{
+	font-style: italic;
+}
+
+h3{
+	font-style: italic;
+	border-width: medium;
+	border-style: solid;
+	border-color: rgb(9, 255, 0);
+}
+
+h4{
+	font-style: italic;
+	border-width: thick;
+	border-style: groove;
+	border-color: rgb(0, 0, 0);
+}
+
+h5{
+	font-style: italic;
+	border-width: thin;
+	border-style: dashed;
+	border-color: rgb(236, 19, 19);
+}
+
+h6{
+	font-style: italic;
+	font-size: larger;
+	border-width: 5cm;
+	border-style: solid;
+	border-color: rgb(236, 19, 19);
+}
+
+#fundo{
+	background-color: #ffffff;
+}
+
+.paragrafo{
+	color: rgb(0, 0, 0);
+}
+
+#fundo1{
+	background-color: #a3fab9;
+}
+
+.paragrafo1{
+	color: rgb(255, 0, 0);
+}
+
+#fundo2{
+	background-color: #ea00ff;
+}
+
+.paragrafo2{
+	color: #001aff;
+}
+
+#fundo3{
+	background: #1abc9c; border-radius:5px; padding:5px;
+}
+
+#fundo4{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQoNjkj0RpoCQOrD0hmq_zsAC_K9SOg1Br3nDmzJYfjXVdSdCd9&usqp=CAU);
+}
